@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc"
+    android:padding="8dp">
+   
+    <FrameLayout 
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/bsinghad" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="200dp"
+        android:text="It is a fortress located roughly 30 kilometres southwest of the city of Pune, India. Previously called Kondhana, the fort has been the site of many important battles, most notably the Battle of Sinhagad in 1671.
+        \nEntry:Free
+        \nTimings:(All days Of the Week)9:00 AM – 6:00 PM
+        \nAddress:Sinhagad Ghat Road, Thoptewadi, Pune, Maharashtra 411025"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+   <Button
+            android:id="@+id/howtoreach8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    
+    
+</FrameLayout>
+    
+ 
+</LinearLayout>
+

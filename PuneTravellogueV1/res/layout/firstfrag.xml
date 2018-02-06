@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffcc"
+    android:orientation="vertical" 
+    android:padding="8dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/bdagduseth" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="200dp"
+            android:text="The temple is a beautiful construction and boasts a rich history of over 100 years,the Ganesh idol is 7.5 feet tall,4 feet wide adorned with nearly 8 kilos of gold.
+        \nEntry: Free
+        \nTimings:(All days of the week)06:00AM-8:00PM 
+        \nAddress:Ganpati Bhavan,250 Budhvar Peth,
+                 Pune,Maharashtra 411002"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <!--
+              <Button
+            android:id="@+id/howtoreach1"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="400dp"
+            android:background="#000000"
+            android:text="How to Reach"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+        -->
+
+        <Button
+            android:id="@+id/howtoreach1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    </FrameLayout>
+
+</LinearLayout>

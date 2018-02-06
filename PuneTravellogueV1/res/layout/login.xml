@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginDrawer">
+<FrameLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginContainer">
+
+
+
+<LinearLayout  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc">
+  
+  
+  <TextView
+      android:id="@+id/textViewusername"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="15dp"
+     
+      android:layout_marginTop="40dp"
+      android:text="Email" />
+      
+
+  <EditText
+      android:id="@+id/editusername"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+     
+      android:layout_marginTop="5dp"
+      android:ems="10"
+      />
+  <TextView
+      android:id="@+id/textViewPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="25dp"
+      
+      android:text="Password" />
+   <EditText
+      android:id="@+id/editPasswd"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/button"
+      android:layout_below="@+id/textView1"
+      android:layout_marginTop="5dp"
+      android:ems="10"
+     android:inputType="textPassword" />  
+      
+     
+  
+   <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="horizontal" >
+    <Button android:id="@+id/butnLogin"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="Login"/>
+    <Button android:id="@+id/butnRegister"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="Register Me"/>
+   </LinearLayout>
+   </LinearLayout>
+   </FrameLayout>
+</FrameLayout>
+

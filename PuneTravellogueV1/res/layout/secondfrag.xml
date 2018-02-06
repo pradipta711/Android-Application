@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc">
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="15dp"
+     
+      android:layout_marginTop="50dp"
+      android:text="UserName" />
+      
+
+  <EditText
+      android:id="@+id/edittext"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/button"
+      android:layout_below="@+id/textView1"
+      android:layout_marginTop="5dp"
+      android:ems="10"
+      />
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="60dp"
+      android:text="Password" />
+   <EditText
+      android:id="@+id/edittext1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/button"
+      android:layout_below="@+id/textView1"
+      android:layout_marginTop="5dp"
+      android:ems="10"
+     android:inputType="text" />   
+     
+   <Button
+       android:layout_marginTop="50dp"
+      android:layout_marginLeft="100dp"
+        android:id="@+id/addcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="15dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="Add comments" />
+    
+</LinearLayout>

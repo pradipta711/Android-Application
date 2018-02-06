@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc"
+    android:padding="8dp">
+   
+    <FrameLayout 
+    
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+         android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+        android:src="@drawable/bbhimashankar" />
+
+    <TextView
+       
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="200dp"
+        android:text="The temple is a composite of old and the new structures in the Nagara style of architecture. It shows the excellency of the skills achieved by ancient Vishwakarma sculptors.
+        \nEntry :Free
+        \nTimings:(All days of the week)5:00AM-12:00PM,
+        							        4:00PM-9:00PM "
+        
+       
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <Button
+            android:id="@+id/howtoreach2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    
+    
+    
+</FrameLayout>
+    
+ 
+</LinearLayout>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc"
+    android:padding="8dp">
+   
+    <FrameLayout 
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+           android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/bmulshi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="200dp"
+        android:text="It is surrounded by lush green mountains and a Mula river on which dam is constructed. It has a picturesque view. The Dam here is used for irrigation and producing electricity. 
+        \nEntry:Free
+        \nTimings:(All days of the week)9:00 AM -6:00 PM
+        \n Address:Mulshi Dam, Maharashtra 412108"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+   <Button
+            android:id="@+id/howtoreach6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    
+</FrameLayout>
+    
+ 
+</LinearLayout>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc">
+   
+    <FrameLayout 
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/bphonix10414" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="200dp"
+        android:text="Phoenix Market City is a biggest shopping mall in Pune, offers A to Z brands for shopping, best restaurants and entertainment places under just one roof.
+        \nEntry :Free
+        \nTimings:(Monday-Friday)10:00 AM – 10:00 PM
+        \nAddress:S No. 207, Viman Nagar Road, Pune, Maharashtra 411014
+        "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+  
+    
+   <Button
+            android:id="@+id/howtoreach10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    
+</FrameLayout>
+ 
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc"
+    android:padding="8dp">
+   
+    <FrameLayout 
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+        android:src="@drawable/baga" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="200dp"
+        android:text="The palace was built by Sultan Muhammed Shah Aga Khan 3. It is considered to be one of the greatest marvel of India. It has a special place for independence movement. Mahatma Gandhi kept here as a jail inmate with other freedom fighters.
+        \nEntry: Paid
+        \nTimings:(All days of the Week)09:00AM To 05:30PM
+        \nAddress:Pune Nagar Road, Kalyani Nagar, Pune, Maharashtra 411014
+        "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+   <Button
+            android:id="@+id/howtoreach4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    
+</FrameLayout>
+    
+ 
+</LinearLayout>
+

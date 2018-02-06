@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffcc"
+    android:padding="8dp">
+   
+    <FrameLayout 
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/bjapanesegarden" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="200dp"
+        android:text="Known as the Pu La Deshpande Garde is the pride of Pune. The idea of recreating was inspired from the 300-year old Okayama Korakuen Garden developed by Ikeda royal family in the 12 specious hectares in Okayama.
+        \nEntry:Rs 5 per head
+        \nTimings:(All days)6:00 AM to 10:30 AM, 4:00PM to 8:00 PM 
+        \nAddress:Sinhagad Road (Narvir Tanaji Malusare Road) Pune, Maharashtra
+        "
+        
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+   <Button
+            android:id="@+id/howtoreach9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:text="How to Reach" />
+    
+ 
+</FrameLayout>
+    
+ 
+</LinearLayout>
+
+
